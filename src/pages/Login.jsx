@@ -19,7 +19,6 @@ const Login = () => {
       console.log(error);
     }
   };
-  console.log(process.env.REACT_APP_FIREBASE_API_KEY);
   return (
     <div className="w-full h-screen">
       <img

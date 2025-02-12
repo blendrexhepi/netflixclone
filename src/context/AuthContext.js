@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setUser(user);
     });
-    return unsubscribe; // Cleanup on unmount
+    return unsubscribe;
   }, []);
 
   return (
